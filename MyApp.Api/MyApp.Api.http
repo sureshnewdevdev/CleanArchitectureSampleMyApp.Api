@@ -1,0 +1,15 @@
+@HostAddress = https://localhost:7199
+
+###
+
+
+
+###
+
+GET {{HostAddress}}/api/employees/employees
+
+###
+
+GET {{HostAddress}}/api/employees/employees/{employeeId}
+
+###
